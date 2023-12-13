@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nevber{
+    height:60px;
+    background-color: black;
+}
+button{
+    background-color: yellow;
+    color: black;
+    height: 20px;
+    width: 80px;
+}
+#logo{
+    color:rgb(144, 35, 35);
+    font-size: 25px;
+}
+a{
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+#contain{
+    height: 853px;
+}
+.image{
+    height: 300px;
+    width: 500px;
+    position:absolute;
+    right: 0;
+    background-image: url(pxfuel\ \(1\).jpg);
+    background-size: cover;
+}
+ 
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
