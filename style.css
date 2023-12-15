@@ -1,40 +1,84 @@
 *{
-    padding: 0;
     margin: 0;
+    font-family: arial;
+    border: border-box;
 }
-#nevber{
-    height:60px;
-    background-color: black;
-}
-button{
-    background-color: yellow;
-    color: black;
-    height: 20px;
-    width: 80px;
-}
-#logo{
-    color:rgb(144, 35, 35);
-    font-size: 25px;
-}
-a{
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
     color: white;
-    margin-right: 200px;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-#contain{
-    height: 853px;
+.nav_logo{
+    height: 45px;
+    width: 100px;
 }
-.image{
-    height: 300px;
-    width: 500px;
-    position:absolute;
-    right: 0;
-    background-image: url(pxfuel\ \(1\).jpg);
+.logo{
+    background-image: url(amazon_logo.png);
     background-size: cover;
+    height: 45px;
+    width: 100px;
 }
- 
-footer{
-    background-color: black;
-    color: white;
+.bordar{
+    border: 1.5px solid transparent;
+}
+.bordar:hover{
+    border: 1.5px solid white;
+}
+
+/**box2**/
+.ad_first{
+    color: #cccccc;
+    font :0.5rem;
+    margin-left: 15px;
+}
+.ad_second{
+    font: size 1rem ;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(31, 72, 137);
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 60px;
     text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color:rgb(255,174,0);
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    color: #0f1111;
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-sign-one{
+    font-size: 0.9rem;
+    font-weight: 700;
 }
